@@ -1,15 +1,20 @@
 package sample.Menu;
 
-import javafx.beans.NamedArg;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
+import javafx.scene.canvas.Canvas;
 
 /**
  * Created by the on 05/06/2017.
  */
-public class InGame extends Scene {
+public class InGame extends Canvas {
 
-    public InGame(@NamedArg("root") Parent root) {
-        super(root);
+    public InGame(){
+
     }
+
+
+    public void onResumeClick(){
+
+    }
+    public void
+
 }
