@@ -3,10 +3,7 @@ package sample.Sprites;
 import javafx.scene.Parent;
 import javafx.scene.image.ImageView;
 
-/**
- * Created by Cam on 28/05/2017.
- */
-public class Enemy extends Parent{
+public class Enemy extends Sprite{
 
     private static final String characterModel = "File:\\SideScrollerExample\\src\\main\\resources\\enemyFighter.png";
 

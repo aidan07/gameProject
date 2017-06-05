@@ -9,7 +9,7 @@ import java.util.Random;
 /**
  * Created by Cam on 28/05/2017.
  */
-public class Boss extends Parent{
+public class Boss extends Sprite{
 
     private int health;
     private int strength;

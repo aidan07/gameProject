@@ -4,10 +4,7 @@ import javafx.scene.Parent;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
-/**
- * Created by Cam on 28/05/2017.
- */
-public class Player extends Parent{
+public class Player extends Sprite{
 
     public Player(){
         ImageView imageView = new ImageView(this.getSprite());
