@@ -10,6 +10,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Polygon;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
+import sample.Main;
 
 /**
  * Created by the on 04/06/2017.
@@ -41,7 +42,7 @@ public class MenuItem extends Pane{
         text = new Text(name);
         text.setTranslateX(5);
         text.setTranslateY(20);
-        text.setFont(Font.loadFont(MenuApp.class.getResourceAsStream("resources/Penumbra-HalfSerif-Std_35114.ttf"), 14));
+        text.setFont(Font.loadFont(Main.class.getResourceAsStream("resources/Penumbra-HalfSerif-Std_35114.ttf"), 14));
         text.setFill(Color.WHITE);
 
         text.effectProperty().bind(

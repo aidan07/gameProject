@@ -5,6 +5,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
+import sample.Main;
 
 /**
  * Created by the on 04/06/2017.
@@ -19,7 +20,7 @@ public class Title extends Pane {
         }
 
         text = new Text(spread);
-        text.setFont(Font.loadFont(MenuApp.class.getResourceAsStream("resources/Penumbra-HalfSerif-Std_35114.ttf"), 48));
+        text.setFont(Font.loadFont(Main.class.getResourceAsStream("resources/Penumbra-HalfSerif-Std_35114.ttf"), 48));
         text.setFill(Color.WHITE);
         text.setEffect(new DropShadow(30, Color.BLACK));
 
