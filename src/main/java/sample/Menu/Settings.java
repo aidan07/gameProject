@@ -1,15 +1,17 @@
 package sample.Menu;
 
-import javafx.beans.NamedArg;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
+import javafx.application.Application;
+import javafx.stage.Stage;
 
 /**
  * Created by the on 05/06/2017.
  */
-public class Settings extends Scene {
+public class Settings extends Application {
 
-    public Settings(@NamedArg("root") Parent root) {
-        super(root);
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+
     }
+
+
 }
